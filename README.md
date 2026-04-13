@@ -18,7 +18,7 @@ DATABASE CONCESSIONARIO
 - numero di posti (TINYINT NULL)
 - numero di porte (TINYINT NULL)
 - condizioni (VARCHAR(50) NOTNULL)
-- prezzo (MEDIUMINT NOT NULL)  
+- prezzo (DECIMAL(8,2) NOT NULL)  
 - kilometri di usura (SMALLINT NOTNULL)
 - numero di proprietari precedenti (TINYINT DEFAULT(1))
 - features (VARCHAR(255) NULL)
